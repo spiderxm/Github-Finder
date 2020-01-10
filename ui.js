@@ -1,6 +1,12 @@
 class UI {
     constructor() {
         this.profile = document.getElementById('profile');
+        this.text = document.getElementById('apple');
+
+    }
+    showAlert(txt, colors) {
+        apple.innerHTML = txt;
+        apple.className = colors;
     }
     showProfile(user) {
         this.profile.innerHTML = `
